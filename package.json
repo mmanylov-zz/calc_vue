@@ -1,5 +1,5 @@
 {
-  "name": "zabbix_service",
+  "name": "calc",
   "version": "0.1.0",
   "private": true,
   "scripts": {
