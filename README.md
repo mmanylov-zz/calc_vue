@@ -1,4 +1,4 @@
-# zabbix_service
+# Simple vue calculator app for skill test
 
 ## Project setup
 ```

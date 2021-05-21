@@ -8,18 +8,18 @@ const endpoint_url = 'http://127.0.0.1:8081'
 
 const store = new Vuex.Store({
     state: {
-        rows: []
+        sum: null
     },
     mutations: {
-        setAll(state, rows) {
-            state.rows = rows
+        setSum(state, sum) {
+            state.sum = sum
         }
     },
     actions: {
-        async getData({commit}) {
+        async calculate({commit}) {
                 const {data, status} = await axios.get(endpoint_url);
                 if (status == 200) {
-                    commit('setAll', data);
+                    commit('setSum', data);
                     return true;
                 }
             return false;
