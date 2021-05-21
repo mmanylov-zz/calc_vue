@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import Table from './components/Calc.vue'
+import Calc from './components/Calc.vue'
 
 export default {
   name: 'App',
