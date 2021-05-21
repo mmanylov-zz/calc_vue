@@ -26,7 +26,7 @@ export default {
     }),
     methods: {
       submit() {
-          this.$store.dispatch('calculate', {x: this.x, y: this.y});
+          this.$store.dispatch('calculate', {number1: this.x, number1: this.y});
       },
     }
   }
